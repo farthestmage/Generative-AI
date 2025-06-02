@@ -12,7 +12,7 @@ This project uses Gemini large language models (LLMs) to generate code. The focu
     source openax/bin/activate
     ```
     here openax is the virtual enviroment  created by me
-    with required dependencies \n
+    with required dependencies 
 - run the application to generate code
     ```bash
     python app.py YOUR CODE COMMAND REQUEST
