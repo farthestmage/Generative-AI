@@ -1,7 +1,7 @@
 from google import genai
 import sys
 
-client = genai.Client(api_key="AIzaSyAp_RFysmFqazqR55yVSGPyuCePR_XERRE")
+client = genai.Client(api_key="<API KEY HERE>")
 
 prompt = " ".join(sys.argv[1:]) + " no explanation, just the code"
 
