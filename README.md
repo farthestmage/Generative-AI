@@ -8,22 +8,18 @@ This project uses Gemini large language models (LLMs) to generate code. The focu
 ## Getting Started
 
 - Setup a virtual enviroment
-    ```
-    bash
-
+    ```bash
     source openax/bin/activate
     ```
     here openax is the virtual enviroment  created by me
     with required dependencies \n
 - run the application to generate code
     ```bash
-    
     python app.py YOUR CODE COMMAND REQUEST
     ```
     example:
     ```bash
-    
-    Write a python code to add two numbers
+    python app.py Write a python code to add two numbers
     ```
 - The output can be found at test1.py
 
